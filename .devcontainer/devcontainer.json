@@ -1,0 +1,8 @@
+{
+    "name": "AWS Terraform",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "postStartCommand": "post-start",
+    "remoteUser": "vscode"
+}
