@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 echo "RUNNING POST START COMMAND..."
-whoami
+
+echo "Running as user: $whoami"
+
+echo "Env vars:"
+env
 
 # Read and process the .tool-versions file
 echo "Installing required asdf plugins..."
