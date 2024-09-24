@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "RUNNING POST START COMMAND..."
+whoami
+
 # Read and process the .tool-versions file
 echo "Installing required asdf plugins..."
 while IFS= read -r line; do
